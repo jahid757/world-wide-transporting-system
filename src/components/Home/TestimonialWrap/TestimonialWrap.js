@@ -5,7 +5,7 @@ const TestimonialWrap = () => {
     const [testimonialData,setTestimonialData] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/testimonial')
+        fetch('https://young-stream-14324.herokuapp.com/testimonial')
         .then(response => response.json())
         .then(data =>{
             setTestimonialData(data)

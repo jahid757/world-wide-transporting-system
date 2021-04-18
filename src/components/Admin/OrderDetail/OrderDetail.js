@@ -9,7 +9,7 @@ const OrderDetail = ({order}) => {
             statusValue:status.value
         }
 
-        fetch(`http://localhost:5000/update/${id}`, {
+        fetch(`https://young-stream-14324.herokuapp.com/update/${id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
@@ -17,7 +17,7 @@ const OrderDetail = ({order}) => {
             body: JSON.stringify(newStatus)
         })
     }
-    
+
     return (
         <tr>
             <td>{order.name}</td>

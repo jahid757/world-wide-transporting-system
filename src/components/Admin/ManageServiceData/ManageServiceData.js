@@ -2,7 +2,7 @@ import React from 'react';
 
 const ManageData = ({manage}) => {
     const handelDelete = (id) => {
-        fetch(`http://localhost:5000/delete/${id}`,{
+        fetch(`https://young-stream-14324.herokuapp.com/delete/${id}`,{
             method:'POST',
             headers:{
                 'Content-Type': 'application/json'

@@ -5,7 +5,7 @@ const OrderList = () => {
     const [order,setOrder] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/payment')
+        fetch('https://young-stream-14324.herokuapp.com/payment')
         .then(response => response.json())
         .then(data =>{
             setOrder(data)

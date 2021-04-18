@@ -14,7 +14,7 @@ const Book = () => {
     const description = bookDescription
     const [serviceDetail,setServiceDetail] = useState({});
     useEffect(() => {
-        fetch('http://localhost:5000/book',{
+        fetch('https://young-stream-14324.herokuapp.com/book',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

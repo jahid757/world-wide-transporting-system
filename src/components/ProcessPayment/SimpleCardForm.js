@@ -32,7 +32,7 @@ const SimpleCardForm = ({userInfo,price}) => {
       setPaymentData(userInfo)
     }
 
-        fetch('http://localhost:5000/addPayment',{
+        fetch('https://young-stream-14324.herokuapp.com/addPayment',{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

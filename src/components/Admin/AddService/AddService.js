@@ -26,7 +26,7 @@ const AddService = () => {
 
     const onSubmit = data => {
         const serviceData = {...data,imgUrl}
-        fetch('http://localhost:5000/addService',{
+        fetch('https://young-stream-14324.herokuapp.com/addService',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

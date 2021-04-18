@@ -10,7 +10,7 @@ const MakeAdmin = () => {
     const onSubmit = data => {
         const admin = data;
 
-        fetch('http://localhost:5000/adminList',{
+        fetch('https://young-stream-14324.herokuapp.com/adminList',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

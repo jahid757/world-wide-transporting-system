@@ -8,7 +8,7 @@ const ContactForm = () => {
     const [alert,setAlert] = useState(false)
     const onSubmit = data => {
         const message = data;
-        fetch('http://localhost:5000/sendMessage',{
+        fetch('https://young-stream-14324.herokuapp.com/sendMessage',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

@@ -5,7 +5,7 @@ import Sidebar from '../SideBar/Sidebar';
 const Messages = () => {
     const [messages,setMessage] = useState([])
 
-    fetch('http://localhost:5000/message')
+    fetch('https://young-stream-14324.herokuapp.com/message')
     .then(response => response.json())
     .then(data =>{
         setMessage(data)

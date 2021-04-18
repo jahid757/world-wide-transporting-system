@@ -8,7 +8,7 @@ const BookingList = () => {
     const [booking,setBooking] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/userBooking?email=${loggedInUser.email}`)
+        fetch(`https://young-stream-14324.herokuapp.com/userBooking?email=${loggedInUser.email}`)
         .then(response => response.json())
         .then(data => {
             setBooking(data);

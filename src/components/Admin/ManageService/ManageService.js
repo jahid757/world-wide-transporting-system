@@ -7,7 +7,7 @@ const ManageService = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [manageData,setManageData] = useState([])
     useEffect(() =>{
-        fetch('http://localhost:5000/services')
+        fetch('https://young-stream-14324.herokuapp.com/services')
         .then(response => response.json())
         .then(data =>{
             setManageData(data)
