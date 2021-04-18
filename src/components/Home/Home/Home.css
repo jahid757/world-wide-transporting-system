@@ -1,0 +1,75 @@
+nav ul li a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    transition: 0.3s;
+    color:#fff !important;
+    padding: 10px 25px !important;
+}
+nav ul li a:hover{
+    color: #ff5200 !important
+}
+.carousel-caption{
+    top: 50%;
+    bottom: 30%;
+    transform:translateY(-50%)
+}
+.contact-form form small{
+    color: red
+}
+.contact-form form textarea{
+    height:225px;
+}
+.service-card,.btn-section{
+    transition: all 0.5s
+}
+.service-card:hover{
+    background:#ff5200;
+    border-color:#ff5200;
+    color:#fff;
+}
+.service-card:hover .btn-section{
+    background:rgb(255, 255, 255);
+}
+.service-card:hover .btn-section h6{
+    color: #ff5200;
+}
+.testimonial_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.card-head{
+    padding: 10px;
+}
+.ratting-star{
+    color: #FDCC0D;
+    font-size: 19px;
+}
+.footer li a{
+    list-style: none;
+    font-size: 15px;
+    line-height: 30px;
+    color: #6c757d;
+    font-family: 'Oswald', sans-serif;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.footer li a:hover{
+    color:#ff5200 ;
+}
+.footer-icon a{
+    margin-right: 10px;
+    font-size: 40px;
+    transition: 0.5s;
+    color:#6c757d;
+    text-decoration: none;
+}
+.footer-icon a:hover{
+    color:#ff5200
+}
+@media (max-width: 768px){
+    .slide{
+      display:none !important;
+    }
+  }
