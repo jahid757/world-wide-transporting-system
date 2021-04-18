@@ -7,7 +7,7 @@ const ManageData = ({manage}) => {
             headers:{
                 'Content-Type': 'application/json'
             },
-            body:''
+            body:JSON.stringify(manage)
         })
     }
     return (
